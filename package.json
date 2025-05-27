@@ -1,0 +1,17 @@
+{
+  "name": "minomuncher-server",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "gaussian-mixture": "^0.9.1",
+    "i": "^0.3.7",
+    "rate-limiter-flexible": "^7.1.1"
+  }
+}
