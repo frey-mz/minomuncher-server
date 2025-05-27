@@ -24,7 +24,7 @@ function getClientIp(req: Request): string {
     return conn.remoteAddress;
   }
 
-  return "Unknown";
+  return `${Math.random()}`
 }
 
 const server = Bun.serve({
